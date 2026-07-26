@@ -54,27 +54,6 @@ Built with 15+ DAX measures using `DIVIDE()`-based weighted rate calculations (n
 
 ---
 
-## Repo Structure
-```
-├── data/
-│   ├── raw/                    # original source CSVs
-│   └── clean/                  # cleaned outputs from step 1
-├── python/
-│   └── data_cleaning.py        # Step 1: cleaning & feature engineering
-├── sql/
-│   ├── 01_schema.sql           # table creation
-│   ├── 02_data_quality.sql     # validation queries
-│   ├── 03_operational_kpis.sql
-│   ├── 04_patient_experience.sql
-│   ├── 05_workforce_analytics.sql
-│   └── 06_views.sql            # final packaged views
-├── powerbi/
-│   └── Hospital_Analytics.pbix
-├── screenshots/
-│   └── (dashboard page images)
-└── README.md
-```
-
 
 ## Author
 Archith Jaiswal
